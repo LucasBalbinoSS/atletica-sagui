@@ -1,0 +1,8 @@
+.input-topo-ativo:checked + .topo-mobile {
+  visibility: visible;
+  opacity: 1;
+}
+
+.topo-mobile {
+  transition:opacity 200ms, visibility 200ms;
+}
