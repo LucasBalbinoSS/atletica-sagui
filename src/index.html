@@ -8,11 +8,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/global.css">
 </head>
-<body class="h-[200vh] selection:bg-[#F6C800]/40 font-['Raleway'] font-light text-slate-900 bg-gray-100/60">
+<body class="selection:bg-[#F6C800]/40 font-['Raleway'] font-light text-slate-900 bg-gray-100/60">
   <header class="z-10 shadow-md bg-white/60 hover:bg-white transition-colors duration-500 backdrop-blur-lg group inset-x-0 top-0 py-2 px-4 grid grid-cols-2 lg:grid-cols-5 fixed">
-    <img class="h-18" src="img/logo-atletica.png" alt="Logo da atlética">
+    <a href="index.html">
+      <img class="h-18" src="img/logo-atletica.png" alt="Logo da atlética">
+    </a>
     <label class="cursor-pointer self-center w-max justify-self-end lg:hidden" for="topo-mobile">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-10">
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -22,19 +24,19 @@
     <nav class="border border-gray-100 text-xl invisible opacity-0 rounded-[30px] p-4 absolute top-[118%] inset-x-4 topo-mobile bg-white/90 shadow-md">
       <ul class="flex flex-col gap-3">
         <li>
-          <a class="hover:bg-[#F6C800]/40 inline-block w-full text-center py-3 rounded-[12px] transition-colors duration-300" href="">Home</a>
+          <a class="hover:bg-[#F6C800]/40 inline-block w-full text-center py-3 rounded-[12px] transition-colors duration-300" href="index.html">Home</a>
         </li>
         <li>
-          <a class="hover:bg-[#F6C800]/40 inline-block w-full text-center py-3 rounded-[12px] transition-colors duration-300" href="">Loja</a>
+          <a class="hover:bg-[#F6C800]/40 inline-block w-full text-center py-3 rounded-[12px] transition-colors duration-300" href="loja.html">Loja</a>
         </li>
         <li>
-          <a class="hover:bg-[#F6C800]/40 inline-block w-full text-center py-3 rounded-[12px] transition-colors duration-300" href="">Blog</a>
+          <a class="hover:bg-[#F6C800]/40 inline-block w-full text-center py-3 rounded-[12px] transition-colors duration-300" href="blog.html">Blog</a>
         </li>
         <li>
-          <a class="hover:bg-[#F6C800]/40 inline-block w-full text-center py-3 rounded-[12px] transition-colors duration-300" href="">Grafite virtual</a>
+          <a class="hover:bg-[#F6C800]/40 inline-block w-full text-center py-3 rounded-[12px] transition-colors duration-300" href="grafite-virtual.html">Grafite virtual</a>
         </li>
         <li>
-          <a class="hover:bg-[#F6C800]/40 inline-block w-full text-center py-3 rounded-[12px] transition-colors duration-300" href="">Nosso time</a>
+          <a class="hover:bg-[#F6C800]/40 inline-block w-full text-center py-3 rounded-[12px] transition-colors duration-300" href="nosso-time.html">Nosso time</a>
         </li>
         <li>
           <a class="inline-block w-full text-center py-3 rounded-[12px] hover:bg-yellow-500/90 transition-colors duration-300 bg-[#F6C800] text-white font-semibold" href="">Doar</a>
@@ -72,12 +74,12 @@
     </nav>
     <nav class="hidden lg:flex justify-center col-span-3 self-center">
       <ul class="flex items-center gap-1">
-        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg" href="">Home</a></li>
-        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg" href="">Loja</a></li>
-        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg" href="">Blog</a></li>
-        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg" href="">Grafite virtual</a></li>
-        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg" href="">Nosso time</a></li>
-        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg font-bold" href="">Doar</a></li>
+        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg" href="index.html">Home</a></li>
+        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg" href="loja.html">Loja</a></li>
+        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg" href="blog.html">Blog</a></li>
+        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg" href="grafite-virtual.html">Grafite virtual</a></li>
+        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg" href="nosso-time.html">Nosso time</a></li>
+        <li><a class="relative px-4 py-2 transition-colors duration-300 hover:text-black hover:bg-[#F6C800]/40 rounded-lg font-bold" href="doar.html">Doar</a></li>
       </ul>
     </nav>
     <ul class="hidden lg:flex items-center justify-end gap-3">
@@ -110,8 +112,8 @@
   </header>
   <main class="px-4 text-black/60">
     <section class="banner -mx-4">
-      <img class="hidden lg:block" src="./img/banner.png" alt="">
-      <img class="lg:hidden" src="./img/banner-mobile.png" alt="">
+      <img class="hidden lg:block" src="./img/banner.png" alt="Banner da atlética">
+      <img class="lg:hidden" src="./img/banner-mobile.png" alt="Banner da atlética">
     </section>
     <section class="py-24">
       <div class="max-w-5xl mx-auto">
@@ -200,8 +202,7 @@
             </div>
           </div>
           <ul class="grid grid-cols-1 md:grid-cols-2 gap-10">
-            <li class="relative group">
-              <a class="absolute inset-0 z-1" href="#"></a>
+            <li class="group cursor-pointer">
               <img class="group-hover:opacity-75 transition-opacity duration-300 rounded" src="img/produto-camiseta-01.jpg" alt="Caneca com escrita 'Do sagui ao mico em 3 goles'">
               <h3 class="mt-2 text-lg group-hover:opacity-75 transition-opacity duration-300">Camiseta de corrida</h3>
               <p class="text-lg font-bold group-hover:opacity-75 transition-opacity duration-300">R$50,00</p>
@@ -212,8 +213,7 @@
                 </svg>
               </span>
             </li>
-            <li class="relative group">
-              <a class="absolute inset-0 z-1" href="#"></a>
+            <li class="group cursor-pointer">
               <img class="group-hover:opacity-75 transition-opacity duration-300 rounded" src="img/produto-camiseta-02.jpg" alt="Caneca com escrita 'Do sagui ao mico em 3 goles'">
               <h3 class="mt-2 text-lg group-hover:opacity-75 transition-opacity duration-300">Camiseta oficial Atlética Sagui</h3>
               <p class="text-lg font-bold group-hover:opacity-75 transition-opacity duration-300">R$65,00</p>
